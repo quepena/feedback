@@ -3,7 +3,6 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { DatabaseModule } from './database.module';
 import entities, { Feedback } from './typeorm';
 
 @Module({
@@ -19,6 +18,7 @@ import entities, { Feedback } from './typeorm';
       database: configService.get('DB_NAME'),
       entities: entities,
       synchronize: true,
+      ssl: { rejectUnauthorized: false },
     }),
     inject: [ConfigService],
   }),
