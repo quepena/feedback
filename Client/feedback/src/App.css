@@ -1,0 +1,173 @@
+.circular--portrait {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  overflow: hidden;
+  border-radius: 50%;
+  left: 70%;
+  bottom: 10px;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+#pink-1 {
+  transform: rotate(-30deg);
+  position: fixed;
+  bottom: -5%;
+}
+
+#pink-2 {
+  transform: rotate(-30deg);
+  position: fixed;
+  bottom: 30%;
+  right: 30%;
+}
+
+#yellow-1 {
+  transform: rotate3d(1, 2, 0, 160deg);
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+#yellow-2 {
+  transform: rotate3d(0, 2, 0, 160deg);
+  position: fixed;
+  right: 40%;
+  bottom: 45%;
+}
+
+#yellow-3 {
+  transform: rotate3d(1, 2, 0, 160deg);
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+}
+
+#green {
+  transform: rotate(-90deg);
+  position: fixed;
+  right: 8%;
+  bottom: 7%;
+}
+
+#green g rect {
+  display: block;
+}
+
+#cloud-1 {
+  position: fixed;
+  left: 20%;
+  bottom: 20%;
+}
+
+#cloud-2 {
+  position: fixed;
+  left: 60%;
+  bottom: 70%;
+}
+
+#cloud-3 {
+  position: fixed;
+  left: 55%;
+  bottom: 55%;
+}
+
+#cloud-4 {
+  position: fixed;
+  left: -3%;
+  bottom: 55%;
+}
+
+#cloud-5 {
+  position: fixed;
+  left: 45%;
+  bottom: 70%;
+}
+
+#cloud-6 {
+  position: fixed;
+  left: 15%;
+  bottom: 30%;
+}
+
+#cloud-7 {
+  position: fixed;
+  left: -4%;
+  bottom: 35%;
+}
+
+#sun {
+  position: fixed;
+  left: 55%;
+  top: 5%;
+}
+
+#form {
+  max-width: 25%;
+  left: 10%;
+  top: 15%;
+  position: fixed;
+}
+
+#text {
+  font-size: 40px;
+  font-weight: 400;
+  color: #3E3E3E;
+  margin-bottom: 5%;
+}
+
+button {
+  background-color: #FAD34F;
+  border-radius: 30px;
+  padding: 4%;
+  color: #FFFFFF;
+  border: #FAD34F;
+  margin-top: 2%;
+  width: 40%;
+}
+
+button:hover {
+  background-color: goldenrod;
+  border: goldenrod;
+}
+
+input {
+  height: 3rem;
+  width: 100%;
+  border-color: #DCDCDC;
+  border-top-style: hidden;
+  border-left-style: hidden;
+}
+
+textarea {
+  height: 6rem;
+  width: 100%;
+  border-color: #DCDCDC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input+input, input+textarea {
+  margin-top: 2%;
+}
+
+#footer {
+  background-color: #D8D8D8;
+  height: 15rem;
+  width: 100%;
+}
+
+.icon {
+  position: fixed;
+  left: 20%;
+  bottom: 15%;
+  color: gray;
+}
+
+.icons+.icons {
+  margin-left: 1rem;
+}
